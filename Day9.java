@@ -1,19 +1,23 @@
 public class Main {
     public static void main ( String [] args){
-        int angkaUmur = 18;
-        double tahunLahir = 2007;
-        String kataSalam = "Hallo";
+        // Deklarasi //
+        int nama;
+        long panjang;
         
-        System.out.println("Angka pertama: " + angkaUmur);
-        System.out.println("Tahun Lahir: " + tahunLahir);
-        System.out.println("Kata Salam: " + kataSalam);
+        //Insialisasi //
+        int angka = 50;
+        String nama = "Darwis";
         
-        String angkaUmur = 18;
-        String tahunLahir = 07;
-        String kataSalam = "Hallo";
+        // Menampilkan nilai awal //
+        System.out.println("Nilai awal angka:" + angka);
+        System.out.println("Nilai awal nama:" + nama);
         
-        System.out.println("Angka Umur: " + angkaUmur);
-        System.out.println("Tahun Lahir: " + tahunLahir);
-        System.out.println("Kata Salam: " + kataSalam);
+        // Update variabel //
+        tinggi = 166;
+        berat = 50;
+        
+        // Nilai variabel setelah di update //
+        System.out.println("Nilai umur setelah di update: " + tinggi);
+        System.out.println("Nilai berat setelah di update: " + berat);
     }
 }
